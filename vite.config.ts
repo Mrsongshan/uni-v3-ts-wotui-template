@@ -1,3 +1,9 @@
+/**
+ * @Author: songshan
+ * @Date: 2026-01-15 15:31:35
+ * @LastEditTime: 2026-01-15 16:50:00
+ * @Description: vite配置文件
+ */
 import { fileURLToPath, URL } from 'node:url'
 
 import { defineConfig } from 'vite'
@@ -19,8 +25,7 @@ export default defineConfig({
     }),
     // https://uni-helper.js.org/plugin-uni
     Uni(),
-  ],
-  
+  ]
 })
 
 

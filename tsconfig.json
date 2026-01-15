@@ -19,6 +19,7 @@
       "@/*": ["./src/*"]
     },
     "types": [
+      "node",
       "vite/client",
       "@dcloudio/types",
       "@mini-types/alipay",
